@@ -2,7 +2,7 @@
 
 Setup:
 
-1) $ git pull
+1) $ git clone https://github.com/longdino/djangoreact.git
 2) $ cd ../
 3) $ python3 -m venv ./env  << create virtual environment
 4) $ source env/bin/activate
