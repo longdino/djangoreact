@@ -26,6 +26,7 @@ SECRET_KEY = '41y@pxy$yvhn-5d(^sb@cbw#@uulo%d)*zkdet=+(ni)zf2og!'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+        '192.168.86.12',
 ]
 
 
@@ -57,7 +58,8 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
+    'http://192.168.86.12:3000',
+    #'http://localhost:3000'
 )
 
 ROOT_URLCONF = 'djangoreactproject.urls'
