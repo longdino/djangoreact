@@ -59,7 +59,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     'http://192.168.86.12:3000',
-    #'http://localhost:3000'
+    'http://localhost:3000' 
 )
 
 ROOT_URLCONF = 'djangoreactproject.urls'
