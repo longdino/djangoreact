@@ -22,12 +22,12 @@ Run react:
 
 To run it on remote server: 
 
-1)edit djangoreact/djangoreact/frontend/src/CustomersService.js
-2)uncomment line2
-3)comment line 3
+1) edit djangoreact/djangoreact/frontend/src/CustomersService.js
+2) uncomment line2
+3) comment line 3
 
 To run it on remote server:
 
-1)edit djangoreact/djangoreact/frontend/src/CustomersService.js
-2)comment line2
-3)uncomment line 3
+1) edit djangoreact/djangoreact/frontend/src/CustomersService.js
+2) comment line2
+3) uncomment line 3
