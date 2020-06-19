@@ -9,6 +9,7 @@ Setup:
 5) (env)$ pip install django djangorestframework django-cors-headers  << install project dependencies
 
 Run django:
+
 1) $ source env/bin/activate
 2) (env)$ cd djangoreactproject
 3) (env)$ python3 manage.py runserver  <<it will run django backend
@@ -21,12 +22,12 @@ Run react:
 
 To run it on remote server: 
 
-edit djangoreact/djangoreact/frontend/src/CustomersService.js
-uncomment line2
-comment line 3
+1)edit djangoreact/djangoreact/frontend/src/CustomersService.js
+2)uncomment line2
+3)comment line 3
 
 To run it on remote server:
 
-edit djangoreact/djangoreact/frontend/src/CustomersService.js
-comment line2
-uncomment line 3
+1)edit djangoreact/djangoreact/frontend/src/CustomersService.js
+2)comment line2
+3)uncomment line 3
