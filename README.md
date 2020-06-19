@@ -12,8 +12,21 @@ Run django:
 1) $ source env/bin/activate
 2) (env)$ cd djangoreactproject
 3) (env)$ python3 manage.py runserver  <<it will run django backend
+*** for remote server: (env)$ python3 manage.py runserver [host]:[port]
 
 Run react:
 
 1) $ cd djangoreactproject/frontend
 2) $ npm start
+
+To run it on remote server: 
+
+edit djangoreact/djangoreact/frontend/src/CustomersService.js
+uncomment line2
+comment line 3
+
+To run it on remote server:
+
+edit djangoreact/djangoreact/frontend/src/CustomersService.js
+comment line2
+uncomment line 3
