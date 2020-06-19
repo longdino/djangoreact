@@ -1,5 +1,6 @@
 import axios from "axios";
-const API_URL = "http://192.168.86.12:8000"; //"http://localhost:8000"; << uncomment this to run it on lcoal server
+//const API_URL = "http://192.168.86.12:8000";
+const API_URL = "http://localhost:8000";
 
 export default class CustomersService {
   constructor() {}
